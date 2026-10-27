@@ -1,0 +1,17 @@
+body{font-family:system-ui,"Noto Sans","Noto Sans Devanagari",sans-serif;margin:0;padding:16px;max-width:520px;margin-inline:auto;line-height:1.55;color:#14211f;font-size:1.05rem}
+.lang{text-align:right;margin:0 0 6px} .lang a{font-weight:700}
+.notice{background:#fff3cd;padding:10px;border-radius:8px;font-size:.92rem}
+.call{display:block;text-align:center;background:#14211f;color:#fff;padding:16px;border-radius:12px;font-size:1.25rem;text-decoration:none;margin:12px 0}
+.call.green{background:#1d6b3a}
+#sos{width:100%;padding:34px;font-size:1.9rem;font-weight:700;color:#fff;background:#c8102e;border:0;border-radius:16px}
+select,input[type=text],input[type=tel],textarea{width:100%;padding:12px;font-size:1rem;margin:6px 0;box-sizing:border-box;border:2px solid #cfdcd8;border-radius:8px;font-family:inherit}
+label.r{display:flex;gap:10px;align-items:flex-start;margin:6px 0;font-weight:400} label.r input{margin-top:6px}
+.q{font-weight:700;margin:14px 0 4px}
+#status{margin:14px 0;font-size:1.2rem;font-weight:700}
+#steps li{margin:10px 0;font-size:1.1rem;line-height:1.45}
+.card{border:2px solid #1d6b3a;border-radius:14px;padding:14px;margin:12px 0}
+.big{font-size:1.45rem;font-weight:800}
+.muted{color:#51615e;font-size:.92rem}
+.ghost{width:100%;padding:12px;font-size:1rem;background:#fff;border:2px solid #51615e;border-radius:10px;margin-top:8px;font-family:inherit}
+svg{width:100%;height:auto;background:#eef5f3;border-radius:10px}
+.hidden{display:none}
