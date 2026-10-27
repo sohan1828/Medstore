@@ -1,0 +1,28 @@
+:root{--ink:#14211f;--muted:#51615e;--pine:#0f4c45;--pine-d:#0a3732;--sos:#c8102e;--line:#cfdcd8;--ok:#1d6b3a;--amber-bg:#fdf1d6;
+ --font:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Noto Sans Devanagari",sans-serif}
+*{box-sizing:border-box}
+body.auth{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px 16px;font-family:var(--font);color:var(--ink);line-height:1.5;
+  background:linear-gradient(165deg,#d5ebe6 0%,#f6faf9 55%)}
+.auth-card{width:100%;max-width:440px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px 28px 26px;box-shadow:0 14px 36px rgba(15,76,69,.10)}
+.auth-card.wide{max-width:560px}
+.auth-brand{display:flex;gap:10px;align-items:center;color:var(--pine);font-weight:800;font-size:1.05rem;margin-bottom:18px}
+.auth-brand::before{content:"+";display:grid;place-items:center;width:30px;height:30px;border-radius:8px;background:var(--pine);color:#fff;font-weight:900;font-size:1.2rem}
+h1{font-size:1.7rem;line-height:1.2;margin:0 0 6px;letter-spacing:-.01em}
+.auth-sub{color:var(--muted);margin:0 0 18px}
+label{display:block;font-weight:600;font-size:.95rem;margin:15px 0 6px}
+input,select,textarea{width:100%;font:inherit;padding:13px 14px;border:2px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+input:focus,select:focus,textarea:focus{border-color:var(--pine);outline:none;box-shadow:0 0 0 4px rgba(15,76,69,.15)}
+input[type=file]{padding:10px;background:#f6faf9}
+.hint{font-size:.85rem;color:var(--muted);margin-top:5px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:520px){.row2{grid-template-columns:1fr}}
+.go{width:100%;margin-top:22px;padding:15px;font:inherit;font-size:1.05rem;font-weight:700;color:#fff;background:var(--pine);border:0;border-radius:11px;cursor:pointer}
+.go:hover{background:var(--pine-d)}
+.alt{margin:20px 0 0;text-align:center;color:var(--muted);font-size:.95rem}
+.alt a{color:var(--pine);font-weight:700}
+.msg{padding:12px 14px;border-radius:10px;margin:0 0 16px;font-size:.95rem}
+.msg.err{background:#fde8ea;border:1px solid var(--sos)}
+.msg.ok{background:#e3f4e8;border:1px solid var(--ok)}
+.msg.wait{background:var(--amber-bg);border:1px solid #e3c36b;color:#5a3b00}
+.sec{margin-top:6px;padding-top:4px;border-top:1px solid var(--line);font-weight:700;color:var(--pine);font-size:.9rem;text-transform:none}
+.hidden{display:none}
